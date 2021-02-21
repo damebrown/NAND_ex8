@@ -1,0 +1,36 @@
+michaelbere, daniel.brown1
+===============================================================================
+Michael Berelejis, ID 203527973, michael.berelejis@mail.huji.ac.il
+Daniel Brown, ID 311340723, daniel.brown1@mail.huji.ac.il
+===============================================================================
+
+                           Project 8 - VM Translator part II
+                           --------------------------
+  
+
+Submitted Files
+---------------
+README - 
+	description of the project
+Makefile - 
+	make command will make VMtranslator command possible
+VMtranslator - 
+	runs the python scrypt on the intended folder/file
+Main.py - 
+	uses other files to execute the translating process in the right sequence
+file_parser.py - 
+	manages the directory/file parsing (reading/writing/extracting a list of files 
+	from a directory)
+regex_patterns.py - 
+	holds the regex patterns we used to verify the code lines
+VM_parser.py - 
+	cleans the code lines, identifies the type of each line and translates 
+	the vm code to hack machine code.
+arithmetic_parser.py -
+    the module that translates arithmetic VM commands to the appropriate .asm code
+memory_parser.py -
+    the module that translates memory VM commands to the appropriate .asm code
+branching_parser.py -
+    the module that translates branching VM commands to the appropriate .asm code
+function_parser.py -
+    the module that translates function VM commands to the appropriate .asm code
